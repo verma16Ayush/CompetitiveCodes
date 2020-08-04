@@ -18,7 +18,6 @@
             },
             "problemMatcher": [
                 "$gcc",
-                ""
                 // "fileLocation": [ "absolute" ],
             ],
             "group": "build"

@@ -9,6 +9,6 @@
         "unordered_set": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
-    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "python.pythonPath": "c:\\Users\\Ayush Verma\\Desktop\\CopetitiveCodes\\.venv\\Scripts\\python.exe",
     "editor.fontFamily": "'Jetbrains Mono', monospace"
 }

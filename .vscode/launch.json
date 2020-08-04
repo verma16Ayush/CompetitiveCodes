@@ -11,7 +11,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "externalTerminal",
-            "pythonPath": "C:\\Users\\Ayush Verma\\Desktop\\cp\\.venv\\Scripts\\python.exe",
+            "pythonPath": "C:\\Users\\Ayush Verma\\Desktop\\CopetitiveCodes\\.venv\\Scripts\\python.exe",
         },
         {
             "name": "g++.exe - Build and debug active file",
