@@ -14,14 +14,22 @@ class Node
 
 void InsertAtEnd(Node* &head, int data)
 {
+    // Node* new_node = new Node();
+    // new_node->data = data;
+    // new_node->next_node_ptr = head;
+    // head = new_node;
+    if(head==NULL)
+    {
+        head->data = data;
+    }
     Node* new_node = new Node();
     new_node->data = data;
     new_node->next_node_ptr = head;
-    head = new_node;
+
 }
 
 
-void print(Node* &n)
+void print(Node* n)
 {
     // Node* temp = n;
     while(n!=NULL)
