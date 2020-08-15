@@ -3,7 +3,7 @@
 using namespace std;
 typedef numeric_limits<streamsize> max_stream_size;
 
-void selection_sort(vector<int>* a)
+void selection_sort(vector<int> *a)
 {
     int temp;
     vector<int>::iterator i, j, minItr;
