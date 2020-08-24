@@ -1,3 +1,1 @@
-import math
-
-print(math.factorial(int(input())))
+print("hell0")

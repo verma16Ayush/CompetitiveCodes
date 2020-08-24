@@ -1,5 +1,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
+typedef map<int, int> mii;
+typedef pair<int, int> pii;
 using namespace std;
 
 void gen_sequences(string n, string res, map<char, string> kp, int i = 0)
