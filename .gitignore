@@ -30,7 +30,7 @@
 *.exe
 *.out
 *.app
-ds-lab/
+# ds-lab/
 .vscode/
 .venv/
 bin/
