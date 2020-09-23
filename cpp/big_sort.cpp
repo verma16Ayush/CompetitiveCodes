@@ -18,7 +18,6 @@ bool custom_comparator(string s1, string s2)
         result = l1<l2;
     }
     
-
     // if (s1.length() != s2.length())
     // {
     //     result = s1.length() < s2.length();
