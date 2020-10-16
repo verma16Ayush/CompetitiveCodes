@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "externalTerminal",
-            "pythonPath": "${config:python.pythonPath}"
+            "pythonPath": "${command:python.interpreterPath}"
         },
         {
             "name": "g++.exe - Build and debug active file",
