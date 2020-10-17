@@ -1,8 +1,8 @@
 /** 
  *
  * @author - Ayush
- * @title - sll.cpp
- * @createdOn - 2020-10-16
+ * @title - pull.cpp
+ * @createdOn - 2020-10-17
  * 
  **/
 #include <iostream>
@@ -19,9 +19,18 @@ typedef map<int, int>::iterator mii_it;
 
 int main()
 {
-    float m, n, a;
-    cin >> m >> n >> a;
-    long long int t = ceil(m / a) * ceil(n / a);
-    cout << t;
+    int t;
+    cin >> t;
+    long long int x1, y1, x2, y2;
+    while(t--)
+    {
+        cin >> x1 >>y1 >> x2 >> y2;
+        ll delx = abs(x1 - x2);
+        ll dely = abs(y1 - y2);
+        ll ti;
+        if(delx && dely) ti = delx + dely + 2;
+        else ti = delx + dely;
+        cout << ti << endl;
+    }
     return 0;
 }
