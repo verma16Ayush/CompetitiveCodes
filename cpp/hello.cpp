@@ -5,7 +5,7 @@ int main()
 {
     string s;
 
-    getline(cin, s);
+    getline(cin, s);test.c
     cin.ignore();
 
     cout<<"Hello, World."<<endl;
